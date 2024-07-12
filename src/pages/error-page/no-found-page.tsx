@@ -7,10 +7,7 @@ const NoFoundPage: FC = () => {
   return (
     <Result
       extra={
-        <Button
-          type="primary"
-          onClick={() => navigate('/cdp/data-asset/label-management/user/list')}
-        >
+        <Button type="primary" onClick={() => navigate('/cdp/data-asset')}>
           回到首页
         </Button>
       }
